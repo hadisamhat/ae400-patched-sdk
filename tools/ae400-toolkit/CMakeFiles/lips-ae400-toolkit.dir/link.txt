@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -g -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mssse3 -pthread -O3 -DNDEBUG -rdynamic CMakeFiles/lips-ae400-toolkit.dir/lips_ae400_toolkit.cpp.o CMakeFiles/lips-ae400-toolkit.dir/linux_scan.cpp.o -o lips-ae400-toolkit 
