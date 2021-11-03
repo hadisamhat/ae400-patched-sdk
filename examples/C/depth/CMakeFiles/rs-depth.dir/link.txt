@@ -1,1 +1,0 @@
-/usr/bin/cc    -pedantic -g -D_DEFAULT_SOURCE   -mssse3 -pthread -O3 -DNDEBUG -rdynamic CMakeFiles/rs-depth.dir/rs-depth.c.o -o rs-depth  -Wl,-rpath,/home/hadi/ae400-patched-sdk/build_Release: ../../../librealsense2.so.2.38.1 ../../../third-party/glfw/src/libglfw3.a -lGL -lGLU -lrt -lm -ldl -lX11 
