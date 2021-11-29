@@ -2,7 +2,7 @@ configure_file(config/network.json config/network.json @ONLY)
 
 if(UNIX)
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/config/network.json"
-        DESTINATION /usr/etc/LIPS/lib
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/LIPS/lib
 )
 endif(UNIX)
 
